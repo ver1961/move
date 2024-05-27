@@ -1,0 +1,13 @@
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def move(self):
+        print(f"{self.name} is moving around.")
+
+# Create a Dog instance
+my_dog = Dog("Willie", 6)
+
+# Call the move method
+my_dog.move()
